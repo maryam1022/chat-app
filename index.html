@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Tabbed Content Section</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="tabs-section">
+  <div class="header">
+    <h1>Company Information</h1>
+    <p>Explore details using interactive tabs</p>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" onclick="showTab('overview', this)">Overview</button>
+    <button class="tab" onclick="showTab('info', this)">Info</button>
+    <button class="tab" onclick="showTab('contact', this)">Contact</button>
+  </div>
+
+  <div class="tab-content">
+    <div class="content active" id="overview">
+      <h3>Overview</h3>
+      <p>We are a modern digital company focused on creating clean, user-friendly web solutions.</p>
+      <div class="card">
+        <strong>Founded:</strong> 2023<br>
+        <strong>Category:</strong> Web & App Development
+      </div>
+    </div>
+
+    <div class="content" id="info">
+      <h3>Information</h3>
+      <ul>
+        <li>Responsive & modern UI designs</li>
+        <li>Clean JavaScript logic</li>
+        <li>Beginner-friendly code structure</li>
+        <li>Internship-ready projects</li>
+      </ul>
+      <div class="card">
+        Technologies: HTML, CSS, JavaScript, React
+      </div>
+    </div>
+
+    <div class="content" id="contact">
+      <h3>Contact Us</h3>
+      <p>Email: maryamnoor10220@gmail.com</p>
+      <p>Phone: +92 322 2193892</p>
+      <div class="card">
+        Address: hyderabad, Pakistan
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="script.js">
+
+</script>
+
+</body>
+</html>
+
